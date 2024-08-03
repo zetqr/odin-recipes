@@ -91,11 +91,16 @@ a {
     width: fit-content;
     height: auto;
     font-weight: 100;
+    border: 2px solid blueviolet;
+    margin-top: 5px;
+}
 
+a, li {
+    background-color: blueviolet;
 }
 
 a:hover, li:hover {
-    background-color: blueviolet;
+    background-color: darkviolet;
 
 }
 
@@ -106,4 +111,6 @@ a:hover, li:hover {
 .return-home {
     margin-block-start: 150px;
     margin-inline-start: 50px;
+    background-color: inherit;
+
 }
