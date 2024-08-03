@@ -1,0 +1,11 @@
+.main-headline {
+    font-family: 'Brush Script MT', Times, serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    font-family: Times, serif;
+    font-size: 20px;
+    font-weight: 800;
+}
