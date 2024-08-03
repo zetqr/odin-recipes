@@ -1,11 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.main {
+    background-color: rgb(128, 88, 249);
+    margin: 0 auto;
+    padding-block-start: 50px;
+}
+
+.gazpacho-headline {
+    font-family: 'Brush Script MT', Times, serif;
+    text-align: center;
+    font-size: 7em;
+    color: aliceblue;
+}
+
 .main-headline {
     font-family: 'Brush Script MT', Times, serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 10rem;
+    color: aliceblue;
+}
+
+.main-list {
+    font-size: 2em;
 }
 
 ul {
-    font-family: Times, serif;
-    font-size: 20px;
+    padding-block-start: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif, serif;
+    font-weight: 100;
+    list-style: none;
+}
+
+a {
+    color: rgb(255, 188, 33);
+    text-decoration: none;
+}
+
+.gazpacho-img {
+    display: block;
+    margin: 50px auto;
+    border-radius: 5%;
+}
+
+.gazpacho-desc-wrapper {
+    color: rgb(255, 188, 33);
+    font-size: 32px;
+    font-family: sans-serif, serif;
+}
+
+.gazpacho-desc-headline {
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif, serif;
     font-weight: 800;
+    list-style: none;
+}
+
+.gazpacho-desc-text {
+    text-align: center;
+    padding-block-start: 15px;
+    color: aliceblue;
+
+}
+
+.gazpacho-list-wrapper {
+    display: block;
+    margin-inline-start: 115px;
+    padding-block-start: 70px;
+    margin-block-end: 50px;
+
+}
+
+.gazpacho-list-content {
+    display: block;
+    margin-inline-start: 55px;
+    margin-block-end: 20px;
+    list-style:lower-roman;
+
+}
+
+.select-color {
+    width: fit-content;
+    height: auto;
+    font-weight: 100;
+
+}
+
+a:hover, li:hover {
+    background-color: blueviolet;
+
+}
+
+.gazpacho-list-headline-steps {
+    padding-block-end: 20px;
+}
+
+.return-home {
+    margin-block-start: 150px;
+    margin-inline-start: 50px;
 }
